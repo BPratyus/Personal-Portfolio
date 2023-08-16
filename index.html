@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/467869ca8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Pratyus_Basuli_Cut_2.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                
+                <h1 class="typewriter">Hi, I'm Pratyus</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Personal_pic.jpg" class="profile" alt="">
+                    <!-- Images/profilePic.jpg -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I am an undergraduate student pursuing a degree in Computer Science 
+                        and Engineering with a specialization in robotics at VIT AP. With a strong 
+                        inclination towards innovation, I constantly seek out new opportunities and 
+                        challenges to apply my problem-solving skills. My goal is to contribute to the 
+                        field of robotics by leveraging my technical knowledge and creative mindset.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>IOT</span><br>Designing IOT devices and applications</li>
+                                <li><span>App Development</span><br>Java App Development</li>
+                                <li><span>Web Development</span><br>Web Servers deployed on Flask and SQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>IOT</span><br>Designing IOT devices and applications</li>
+                                <li><span>App Development</span><br>Java App Development</li>
+                                <li><span>Web Development</span><br>Web Servers deployed on Flask and SQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>VIT-AP</span><br>B.Tech in Computer Science and Engineering <br>with specialization in Robotics</li>
+                                <li><span>DPS, Nacharam</span><br>Sr. Secondary, CBSE</li>
+                                <!-- <li><span>TSA</span><br>Web Servers deployed on Flask and SQL</li> -->
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------Services---------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Certifications</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>IBM</h2>
+                    <p>IBM Artificial Intelligence Analyst</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Check Credentials</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>RPA</h2>
+                    <p>IBM Artificial Intelligence Analyst</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Check Credentials</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-atom"></i>
+                    <h2>Boston IT</h2>
+                    <p>IBM Artificial Intelligence Analyst</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Check Credentials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Tech_for_visually_impaired.png" alt="">
+                    <div class="layer">
+                        <h3>Smart Sight</h3>
+                        <p>The Technology to enable Blind People in commute and 
+                            Transport in their Day to Day Lives </p>
+                        <a href="https://github.com/BPratyus/Technology-for-Blind" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/home_tab.PNG" alt="">
+                    <div class="layer">
+                        <h3>Prebooq</h3>
+                        <p>A platform for students to borrow books from seniors and 
+                            create new connections on shared interests</p>
+                        <a href="https://github.com/BPratyus/Prebooq" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Learn-Facial-Recognition-scaled.jpg" alt="">
+                    <div class="layer">
+                        <h3>Facial Attendance</h3>
+                        <p>A Real-time Facial Recognition based Attendance System
+                             for large environments </p>
+                        <a href="https://github.com/BPratyus/Face-Recognition-Attendance-System" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/BPratyus?tab=repositories" class="btn" target="_blank" rel="noopener noreferrer">See more</a>
+        </div>
+    </div>
+    <!-- -----------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>basulipratyus@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7358651494</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pratyus-basuli-083a07236/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/BPratyus" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-solid fa-heart"></i> by Pratyus</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
