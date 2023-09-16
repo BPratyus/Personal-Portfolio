@@ -366,14 +366,16 @@ nav .fa-solid{
         height: 12vh;
     }
     #header{
-        background-size: 50%;
+        background-size: 60%;
+        height: 80vh;
     }
     .header-text{
-        margin-top: 10%;
+        margin-top: 5%;
         font-size: 20px;
     }
     .header-text h1{
         font-size: 50px;
+        margin-top: 10vh;
     }
     .typewriter{
         width: 12rem;
