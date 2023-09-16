@@ -68,7 +68,7 @@ nav ul li a:hover::after{
 }
 .typewriter{
     position: relative;
-    width: 15rem;
+    width: 26rem;
 }
 .typewriter::after{
     content: '|';
@@ -361,7 +361,10 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:735px){
+    .logo{
+        height: 12vh;
+    }
     #header{
         background-size: 50%;
     }
@@ -370,10 +373,10 @@ nav .fa-solid{
         font-size: 20px;
     }
     .header-text h1{
-        font-size: 38px;
+        font-size: 50px;
     }
     .typewriter{
-        width: 9rem;
+        width: 12rem;
     }
 
     nav .fa-solid{
