@@ -10,6 +10,7 @@ html{
 body{
     background: #000000;
     color: #fff;
+    
 }
 #header{
     /* padding-top: 10vh; */
@@ -19,8 +20,9 @@ body{
     background-image: url(Images/Enhanced_bg_Image.png);
     background-size: 40%;
     background-position: right;
-    
+    background-attachment: fixed ;
     background-repeat: no-repeat;
+    perspective: -1px;
     /* Images/backround.jpg */
 }
 
@@ -369,7 +371,7 @@ nav .fa-solid{
     #header{
         background-size: 70%;
         background-position: bottom right;
-        height: 80vh;
+        height: 90vh;
     }
     .header-text{
         margin-top: 3%;
@@ -394,7 +396,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #c4194f;
         position: fixed;
         top: 0;
         right: -200px;
@@ -406,7 +408,12 @@ nav .fa-solid{
     }
     nav ul li{
         display: block;
-        margin: 25px;
+        margin: 30px;
+        text-align: center;
+    }
+    nav ul li a{
+        font-size: 23px;
+        font-weight: 400;
     }
     nav ul .fa-solid{
         position: absolute;
