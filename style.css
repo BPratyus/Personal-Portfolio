@@ -19,6 +19,7 @@ body{
     background-image: url(Images/Enhanced_bg_Image.png);
     background-size: 40%;
     background-position: right;
+    
     background-repeat: no-repeat;
     /* Images/backround.jpg */
 }
@@ -366,20 +367,27 @@ nav .fa-solid{
         height: 12vh;
     }
     #header{
-        background-size: 60%;
+        background-size: 70%;
+        background-position: bottom right;
         height: 80vh;
     }
     .header-text{
-        margin-top: 5%;
-        font-size: 20px;
+        margin-top: 3%;
+        /* font-size: 20px; */
+        padding-left: 30px;
     }
     .header-text h1{
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 10vh;
     }
     .typewriter{
-        width: 12rem;
+        width: 14rem;
     }
+    .typewriter::after{
+        animation: typing 1.5s steps(8) forwards,
+        line 1s infinite;
+    } 
+    
 
     nav .fa-solid{
         display: block;
