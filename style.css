@@ -125,6 +125,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
+    z-index: 1;
 }
 .profile{
     height: 35vh;
@@ -415,7 +416,7 @@ nav .fa-solid{
         transform: scale(1,1.1) translate(5%,10%);
     }
     .typewriter::after{
-        animation: typing 1.5s steps(8) forwards,
+        animation: typing 2.5s steps(8) forwards,
         line 1s infinite;
     } 
     
